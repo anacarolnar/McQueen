@@ -1,0 +1,35 @@
+@font-face {
+    font-family: carros;
+    src: url(MAGNETOB.TTF);
+}
+
+header
+{
+    position: fixed;
+    width: 100%;
+}
+
+.listaNav
+{
+    display: flex;
+    background-color: #800606f3;
+    color: white;
+    text-shadow: 2px 2px #2c0000;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.listaNav li
+{
+    font-size: 32px;
+    margin: 1rem;
+}
+
+@media(max-width: 760px)
+{
+    header
+    {
+        display: none;
+        
+    }
+}

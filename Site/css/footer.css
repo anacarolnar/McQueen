@@ -1,0 +1,21 @@
+.footer
+{
+    background-color: rgb(6, 1, 22);
+    color: white;
+    height: 18vh;
+    padding: 3rem;
+    width: 100%;
+    
+}
+
+.pfooter{
+    text-align: center;
+    color: rgb(153, 152, 152);
+}
+
+@media(max-width:760px)
+{
+    .pfooter{
+        font-size: 20px;
+}
+}
